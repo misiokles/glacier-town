@@ -1,0 +1,63 @@
+{
+	"gcrcelest2":
+	{
+		"name" :
+		{
+			"plural" : "Celestial Tidelords",
+			"singular" : "Celestial Tidelord"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "glacier",
+		"aiValue" : 2056,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"damage" :
+		{
+			 "max" : 22,
+			 "min" : 15
+		},
+		"defense" : 15,
+		"fightValue" : 1785,
+		"graphics" :
+		{
+			"animation" : "glacier/battle/celest2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "glacier/map/celest2mini.def",
+			"iconSmall" : "glacier/iconsSmall/celest2s.bmp",
+			"iconLarge" : "glacier/iconsBig/celest2l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		
+		"growth" : 2,
+		"hitPoints" : 85,
+		"level" : 6,
+	    "doubleWide" : true,			
+		"sound" :
+		{
+			"attack": "glacier/celestatk.wav",
+			"defend" : "glacier/celestblk.wav",
+			"killed" : "glacier/celestdie.wav",
+			"move": "glacier/celestwlk.wav",
+			"wince": "glacier/celestblk.wav"            
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+			"threeHeads" : 
+			{
+				"type" : "THREE_HEADED_ATTACK"
+			},
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			}
+		}	
+	}
+}

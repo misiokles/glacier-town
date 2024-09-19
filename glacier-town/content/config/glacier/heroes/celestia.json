@@ -1,0 +1,66 @@
+{
+	"gcrcelestia" :
+	{
+		"class" : "gcramarokf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Celestia",
+			"biography" : "Only Celestia knows why she does not age with time. Her secret is that in her child's body beats the magic heart of an ancient great Amarak. Incredible and mysterious, Celestia, travels the world in search of secrets long forgotten by mortals.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Resistance skill.",
+				"tooltip" : "Secondary Skill Bonus: Resistance",
+				"name" : "Resistance"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/celestia/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/celestia/spec-large.png",
+			"large" : "glacier/heroes/celestia/portrait-large.png",
+			"small" : "glacier/heroes/celestia/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrsylph1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "advanced",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"type" : "MAGIC_RESISTANCE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

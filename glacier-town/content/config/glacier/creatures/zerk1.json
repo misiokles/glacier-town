@@ -1,0 +1,56 @@
+{
+	"gcrzerk1":
+	{
+		"name" :
+		{
+			"plural" : "Frost Berserkers",
+			"singular" : "Frost Berserker"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 50,
+			 "min" : 20
+		},
+		"faction" : "glacier",
+		"aiValue" : 99,
+		"attack" : 4,
+		"cost" :
+		{
+			"gold" : 55
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 4,
+		"fightValue" : 109,
+		"graphics" :
+		{
+			"animation" : "glacier/battle/zerk1.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "glacier/map/zerk1mini.def",
+			"iconSmall" : "glacier/iconsSmall/zerk1s.bmp",
+			"iconLarge" : "glacier/iconsBig/zerk1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"growth" : 12,
+		"hitPoints" : 8,
+		"horde" : 10,
+		"level" : 1,
+		"upgrades":
+		[
+			"gcrzerk2"
+		],
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"speed" : 5
+	}
+}

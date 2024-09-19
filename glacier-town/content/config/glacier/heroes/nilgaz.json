@@ -1,0 +1,69 @@
+{
+	"gcrnilgaz" :
+	{
+		"class" : "gcramarok",
+		"texts" :
+		{
+			"name" : "Nilgaz",
+			"biography" : "Nilgaz, the twin brother of Balcor has always struggled to keep up with his brother which claims to be the eldest based on the simple fact that he was born two minutes prior. One day while out on a hunt with his brother on the glacial peaks, his brothers horse stepped into a snow covered hole tossing him from the saddle where he hit his head on a tree quite badly. Alone and with no help coming due to their isolated location, Nilgaz has no choice but to nurse his brother back to health. This led to the discovery of his innate ability in the arts of healing.",
+			"specialty" : {
+				"description" : "Bonus of First Aid",
+				"tooltip" : "Receives a 5% per level bonus to First Aid skill percentage.",
+				"name" : "First Aid"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/nilgaz/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/nilgaz/spec-large.png",
+			"large" : "glacier/heroes/nilgaz/portrait-large.png",
+			"small" : "glacier/heroes/nilgaz/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "spell.firstAid",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}
+

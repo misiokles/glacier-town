@@ -1,0 +1,70 @@
+{
+	"gcraleta" :
+	{
+		"class" : "gcricedemf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Aleta",
+			"biography" : "Aleta was converted into a Greater Ice Demon against her own will. She has since embraced the power that came with the change, lending it out to the local Glacial Lords.",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste",
+				"description" : "Casts Haste spell with increased effect, based on the level of the target."
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/aleta/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/aleta/spec-large.png",
+			"large" : "glacier/heroes/aleta/portrait-large.png",
+			"small" : "glacier/heroes/aleta/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrsylph1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

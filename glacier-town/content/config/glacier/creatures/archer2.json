@@ -1,0 +1,101 @@
+{
+	"gcrarcher2":
+	{
+		"name" :
+		{
+			"plural" : "Snow Hunters",
+			"singular" : "Snow Hunter"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+
+		},
+		"faction" : "glacier",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 9,
+		"hitPoints" : 10,
+		"speed" : 5,
+		"shots" : 24,
+		"fightValue" : 143,
+		"aiValue" :136,
+		"cost" :
+		{
+			"gold" : 100
+		},
+		"graphics" :
+		{
+			"animation" : "glacier/battle/archer2.def",
+			"map" : "glacier/map/archer2mini.def",
+			"iconSmall" : "glacier/iconsSmall/archer2s.bmp",
+			"iconLarge" : "glacier/iconsBig/archer2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "LCRSATTK.wav",
+			"defend": "LCRSDFND.wav",
+			"killed": "LCRSKILL.wav",
+			"move": "LCRSMOVE.wav",
+			"shoot": "LCRSSHOT.wav",
+			"wince": "LCRSWNCE.wav"
+         },
+		"abilities" :
+		{
+			
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT",
+			}
+		}	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

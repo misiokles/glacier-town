@@ -1,0 +1,48 @@
+{
+	"glacier" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"mageGuild1" :      { "animation" : "glacier/town-screen/buildings/mg1.def",    	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/mg1b.bmp", 	"area" : "glacier/town-screen/buildings-area/mg1a.bmp" },
+				"mageGuild2" :      { "animation" : "glacier/town-screen/buildings/mg2.def",    	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/mg2b.bmp", 	"area" : "glacier/town-screen/buildings-area/mg2a.bmp" },
+				"mageGuild3" :      { "animation" : "glacier/town-screen/buildings/mg3.def",    	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/mg3b.bmp", 	"area" : "glacier/town-screen/buildings-area/mg3a.bmp" },
+				"mageGuild4" :      { "animation" : "glacier/town-screen/buildings/mg4.def",    	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/mg4b.bmp", 	"area" : "glacier/town-screen/buildings-area/mg4a.bmp" },
+				"ship" :            { "animation" : "glacier/town-screen/buildings/boat.def",       "x" : 0, "y" : 0,  "z" : 2, "border" : "glacier/town-screen/buildings-border/boatb.bmp",    "area" : "glacier/town-screen/buildings-area/boata.bmp", "hidden" : true },
+				"shipyard" :        { "animation" : "glacier/town-screen/buildings/dock.def",       "x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/dockb.bmp",    "area" : "glacier/town-screen/buildings-area/docka.bmp" },
+				"tavern" :          { "animation" : "glacier/town-screen/buildings/tavern.def",     "x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/tavernb.bmp",	"area" : "glacier/town-screen/buildings-area/taverna.bmp" },
+				"fort" :            { "animation" : "glacier/town-screen/buildings/cas1.def",   	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/cas1b.bmp", 	"area" : "glacier/town-screen/buildings-area/cas1a.bmp" },
+				"citadel" :         { "animation" : "glacier/town-screen/buildings/cas2.def",   	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/cas2b.bmp",    "area" : "glacier/town-screen/buildings-area/cas2a.bmp" },
+				"castle" :          { "animation" : "glacier/town-screen/buildings/cas3.def",       "x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/cas3b.bmp", 	"area" : "glacier/town-screen/buildings-area/cas3a.bmp" },
+				"villageHall" :     { "animation" : "glacier/town-screen/buildings/hall1.def",      "x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/hall1b.bmp",   "area" : "glacier/town-screen/buildings-area/hall1a.bmp" },
+				"townHall" :        { "animation" : "glacier/town-screen/buildings/hall2.def",   	"x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/hall2b.bmp",   "area" : "glacier/town-screen/buildings-area/hall2a.bmp" },
+				"cityHall" :        { "animation" : "glacier/town-screen/buildings/hall3.def",   	"x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/hall3b.bmp",   "area" : "glacier/town-screen/buildings-area/hall3a.bmp" },
+				"capitol" :         { "animation" : "glacier/town-screen/buildings/hall4.def",   	"x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/hall4b.bmp",   "area" : "glacier/town-screen/buildings-area/hall4a.bmp" },
+				"marketplace" :     { "animation" : "glacier/town-screen/buildings/market.def",     "x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/marketb.bmp",  "area" : "glacier/town-screen/buildings-area/marketa.bmp" },
+				"resourceSilo" :    { "animation" : "glacier/town-screen/buildings/silo.def",   	"x" : 0, "y" : 0,  "z" : 2, "border" : "glacier/town-screen/buildings-border/silob.bmp", 	"area" : "glacier/town-screen/buildings-area/siloa.bmp" },
+				"blacksmith" :      { "animation" : "glacier/town-screen/buildings/smith.def",   	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/smithb.bmp", 	"area" : "glacier/town-screen/buildings-area/smitha.bmp" },
+				"special1" :        { "animation" : "glacier/town-screen/buildings/spec1.def",  	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/spec1b.bmp",   "area" : "glacier/town-screen/buildings-area/spec1a.bmp" },
+				"special2" :        { "animation" : "glacier/town-screen/buildings/spec2.def",  	"x" : 0, "y" : 0,  "z" : 4, "border" : "glacier/town-screen/buildings-border/spec2b.bmp", 	"area" : "glacier/town-screen/buildings-area/spec2a.bmp" },
+				"horde1" :          { "animation" : "glacier/town-screen/buildings/horde.def",  	"x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/hordeb.bmp", 	"area" : "glacier/town-screen/buildings-area/hordea.bmp", "hidden" : true  },
+				"horde1Upg" :       { "animation" : "glacier/town-screen/buildings/hordeu.def",     "x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/hordeub.bmp", 	"area" : "glacier/town-screen/buildings-area/hordeua.bmp", "hidden" : true, "builds" : "horde1" },
+				"grail" :           { "animation" : "glacier/town-screen/buildings/grail.def",  	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/grailb.bmp", 	"area" : "glacier/town-screen/buildings-area/graila.bmp" },
+				"dwellingLvl1" :    { "animation" : "glacier/town-screen/buildings/dw1.def",    	"x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/dw1b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw1a.bmp" },
+				"dwellingLvl2" :    { "animation" : "glacier/town-screen/buildings/dw2.def",    	"x" : 0, "y" : 0,  "z" : 2, "border" : "glacier/town-screen/buildings-border/dw2b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw2a.bmp" },
+				"dwellingLvl3" :    { "animation" : "glacier/town-screen/buildings/dw3.def",    	"x" : 0, "y" : 0,  "z" : 3, "border" : "glacier/town-screen/buildings-border/dw3b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw3a.bmp" },
+				"dwellingLvl4" :    { "animation" : "glacier/town-screen/buildings/dw4.def",    	"x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/dw4b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw4a.bmp" },
+				"dwellingLvl5" :    { "animation" : "glacier/town-screen/buildings/dw5.def",    	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/dw5b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw5a.bmp" },
+				"dwellingLvl6" :    { "animation" : "glacier/town-screen/buildings/dw6.def",    	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/dw6b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw6a.bmp" },
+				"dwellingLvl7" :    { "animation" : "glacier/town-screen/buildings/dw7.def",     	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/dw7b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw7a.bmp" },
+				"dwellingUpLvl1" :  { "animation" : "glacier/town-screen/buildings/dw1u.def",   	"x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/dw1ub.bmp", 	"area" : "glacier/town-screen/buildings-area/dw1ua.bmp" },
+				"dwellingUpLvl2" :  { "animation" : "glacier/town-screen/buildings/dw2u.def",   	"x" : 0, "y" : 0,  "z" : 2, "border" : "glacier/town-screen/buildings-border/dw2ub.bmp", 	"area" : "glacier/town-screen/buildings-area/dw2ua.bmp" },
+				"dwellingUpLvl3" :  { "animation" : "glacier/town-screen/buildings/dw3u.def",   	"x" : 0, "y" : 0,  "z" : 3, "border" : "glacier/town-screen/buildings-border/dw3ub.bmp", 	"area" : "glacier/town-screen/buildings-area/dw3ua.bmp" },
+				"dwellingUpLvl4" :  { "animation" : "glacier/town-screen/buildings/dw4u.def",   	"x" : 0, "y" : 0,  "z" : 1, "border" : "glacier/town-screen/buildings-border/dw4ub.bmp", 	"area" : "glacier/town-screen/buildings-area/dw4ua.bmp" },
+				"dwellingUpLvl5" :  { "animation" : "glacier/town-screen/buildings/dw5u.def",   	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/dw5b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw5a.bmp" },
+				"dwellingUpLvl6" :  { "animation" : "glacier/town-screen/buildings/dw6u.def",   	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/dw6b.bmp", 	"area" : "glacier/town-screen/buildings-area/dw6a.bmp" },
+				"dwellingUpLvl7" :  { "animation" : "glacier/town-screen/buildings/dw7u.def",   	"x" : 0, "y" : 0,  "z" : 0, "border" : "glacier/town-screen/buildings-border/dw7ub.bmp", 	"area" : "glacier/town-screen/buildings-area/dw7ua.bmp" },
+			}
+		}
+	}
+}
+

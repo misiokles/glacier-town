@@ -1,0 +1,68 @@
+{
+	"gcrbalcor" :
+	{
+		"class" : "gcramarok",
+		"texts" :
+		{
+			"name" : "Balcor",
+			"biography" : "Balcor, the two minute older twin of Nilgaz has always been a hearty warrior, who went into battle wearing nothing but the skins of the wild animals he bested in hand to hand combat. That was until the fateful hunting trip with his brother that led to a severe head injury and the title of little brother to Nilgaz. Having learned his lesson, Balcor has become quite the famed Armorer. To this day he can be seen wearing only the finest Iron helmets from his personal collection every time he goes into battle.",
+			"specialty" :
+			{
+				"tooltip" : "Receives a 5% per level bonus to Armorer skill.",
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/balcor/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/balcor/spec-large.png",
+			"large" : "glacier/heroes/balcor/portrait-large.png",
+			"small" : "glacier/heroes/balcor/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gcrarcher1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrsylph1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

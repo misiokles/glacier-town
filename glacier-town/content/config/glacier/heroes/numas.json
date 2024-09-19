@@ -1,0 +1,65 @@
+{
+	"gcrnumas" :
+	{
+		"class" : "gcramarok",
+		"texts" :
+		{
+			"name" : "Numas",
+			"biography" : "Numas fancies himself a master trader with a penchant for making money appear from thin air. The truth is, he regularly goes on adventures in an effort to relieve the local marauding monsters and bandits from their precious hides and gear. He then loves to take these items to his shop, in order to convert them into the piles of gold he loves so much.", 
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "Increases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "glacier/heroes/numas/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/numas/spec-large.png",
+			"large" : "glacier/heroes/numas/portrait-large.png",
+			"small" : "glacier/heroes/numas/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrsylph1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

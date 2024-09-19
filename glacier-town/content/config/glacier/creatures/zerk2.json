@@ -1,0 +1,52 @@
+{
+	"gcrzerk2":
+	{
+		"name" :
+		{
+			"plural" : "Frost Marauders",
+			"singular" : "Frost Marauder"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 20
+		},
+		"faction" : "glacier",
+		"aiValue" : 103,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 80
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 5,
+		"fightValue" : 114,
+		"graphics" :
+		{
+			"animation" : "glacier/battle/zerk2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "glacier/map/zerk2mini.def",
+			"iconSmall" : "glacier/iconsSmall/zerk2s.bmp",
+			"iconLarge" : "glacier/iconsBig/zerk2l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 12,
+		"hitPoints" : 8,
+		"horde" : 10,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"speed" : 6
+	}
+}

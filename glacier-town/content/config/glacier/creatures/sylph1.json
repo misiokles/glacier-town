@@ -1,0 +1,62 @@
+{
+	"gcrsylph1":
+	{
+		"name" :
+		{
+			"plural" : "Sylphs",
+			"singular" : "Sylph"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 12
+		},
+		"faction" : "glacier",
+		"aiValue" : 192,
+		"attack" : 6,
+        "cost" :
+		{
+			"gold" : 110
+		},
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 1
+		},
+		"defense" : 4,
+		"fightValue" : 196,
+		"graphics" :
+		{
+			"animation" : "glacier/battle/sylph1.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "glacier/map/sylph1mini.def",
+			"iconSmall" : "glacier/iconsSmall/sylph1s.bmp",
+			"iconLarge" : "glacier/iconsBig/sylph1l.bmp",
+			"timeBetweenFidgets" : 1,
+        },
+		"growth" : 6,
+		"horde" : 6,
+		"hitPoints" : 16,
+		"level" : 3,
+		"upgrades":
+		[
+			"gcrsylph2"
+		],
+		"sound" :
+		{
+			"attack": "glacier/sylatk.wav",
+			"defend": "glacier/sylhit.wav",
+			"killed": "glacier/syldie.wav",
+			"move": "glacier/sylwlk.wav",
+			"wince": "glacier/sylhit.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			}
+		}		
+	}
+}

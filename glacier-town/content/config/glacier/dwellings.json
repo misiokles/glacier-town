@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"gcrMarauderBarracks" : {
+				"name" : "Marauder Barracks",
+				"creatures" : [[ "gcrzerk1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glacier/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "BAB" ]
+					}
+				}
+			},
+			"gcricehunterlodge" : {
+				"name" : "Ice Hunter Lodge",
+				"creatures" : [[ "gcrarcher1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "glacier/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "BAB" ]
+					}
+				}
+			},
+			"gcrsylphhovel" : {
+				"name" : "Sylph Hovel",
+				"creatures" : [[ "gcrsylph1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glacier/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "BAB" ]
+
+					}
+				}
+			},
+			"gcrSnowyowlnest" : {
+				"name" : "Snowy Owl Nest",
+				"creatures" : [[ "gcrowl1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glacier/adventure-map/dwelling-4.def",
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VBAB" ]
+					}
+				}
+			},
+			"gcryeticave" : {
+				"name" : "Yeti Cave",
+				"creatures" : [[ "gcryeti1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glacier/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "BAB" ]
+					}
+				}
+			},
+			"gcrcelestialportal" : {
+				"name" : "Celestial Portal",
+				"creatures" : [[ "gcrcelest1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glacier/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "BBV", "ABV" ]
+					}
+				}
+			},
+			"gcrshrineofice" : {
+				"name" : "Shrine of Ice",
+				"creatures" : [[ "gcricedem1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glacier/adventure-map/dwelling-7.def",
+						"mask" : [ "VVVV", "VVVV", "VVAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

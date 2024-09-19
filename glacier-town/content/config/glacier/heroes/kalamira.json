@@ -1,0 +1,68 @@
+{
+	"gcrkalamira" :
+	{
+		"class" : "gcramarok",
+		"female" : true,		
+		"texts" :
+		{
+			"name" : "Kalamira",
+			"biography" : "Kalamira the calamity, this was the name given to her by her peers during Amarok Training. She was always hurting herself in vicious brawls where she favored head butting an opponents nose up into their skull. Thanks to the wisdom of one of her instructors, she was fitted a fine bronze helmet, which she uses to devastating affect in melee.",
+			"specialty" :
+			{
+				"tooltip" : "Secondary Skill Bonus: offence",
+				"name" : "Offence",
+				"description" : "Receives a 5% per level bonus to offence skill percentage."
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/kalamira/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/kalamira/spec-large.png",
+			"large" : "glacier/heroes/kalamira/portrait-large.png",
+			"small" : "glacier/heroes/kalamira/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrsylph1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "damageTypeMelee",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}	
+	}
+}

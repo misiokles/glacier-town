@@ -1,0 +1,67 @@
+{
+	"gcryeti2":
+	{
+		"name" :
+		{
+			"plural" : "Frostbite Yetis",
+			"singular" : "Frostbite Yeti"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "glacier",
+		"aiValue" : 1019,
+		"attack" : 14,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			 "max" : 17,
+			 "min" : 11
+		},
+		"defense" : 14,
+	    "doubleWide" : true,			
+		"fightValue" : 933,
+		"graphics" :
+		{
+			"animation" : "glacier/battle/yeti2.def",
+			"map" : "glacier/map/yeti2mini.def",
+			"iconSmall" : "glacier/iconsSmall/yeti2s.bmp",
+			"iconLarge" : "glacier/iconsBig/yeti2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+	
+		},
+
+        "growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"sound" :
+		{
+			"attack" : "glacier/yetiatk.wav",
+			"defend" : "glacier/yetihit.wav",
+			"killed" : "glacier/yetidie.wav",
+			"move": "glacier/yetiwlk.wav",
+			"wince" : "glacier/yetihit.wav"
+ 		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"thunderOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.iceBolt",
+				"val" : 20
+			}
+		}
+	}
+}

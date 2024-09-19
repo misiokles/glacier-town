@@ -1,0 +1,70 @@
+{
+	"gcrayothar" :
+	{
+		"class" : "gcricedem",
+		"texts" :
+		{
+			"name" : "Ayothar",
+			"biography" : "Lesser Ice Demons are much smarter than they seem. Ayothar is a prime example of this as he was the first of his kind to master magic.", 
+			"specialty" :
+			{
+				"tooltip" : "Bonus to Mysticism",
+				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
+				"name" : "Mysticism"
+			}
+		},		
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/ayothar/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/ayothar/spec-large.png",
+			"large" : "glacier/heroes/ayothar/portrait-large.png",
+			"small" : "glacier/heroes/ayothar/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"bless"
+		],
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrsylph1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

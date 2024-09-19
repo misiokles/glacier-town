@@ -1,0 +1,57 @@
+{
+	"gcrquelldor" :
+	{
+		"class" : "gcricedem",
+		"texts" :
+		{
+			"name" : "Quelldor",
+			"biography" : "Quelldor was born a Greater Ice Demon and looks down upon those who elevated themselves into his sacred bloodline through the perversion of his peoples magics.",
+			"specialty" :
+			{
+				"description" : "Starts with Advanced Water Magic skill.",
+				"tooltip" : "Secondary Skill Bonus: Water Magic",
+				"name" : "Water Magic"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/quelldor/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/quelldor/spec-large.png",
+			"large" : "glacier/heroes/quelldor/portrait-large.png",
+			"small" : "glacier/heroes/quelldor/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"bless"
+		],
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+		}	
+	}
+}

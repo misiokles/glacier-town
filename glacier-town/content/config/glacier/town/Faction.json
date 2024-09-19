@@ -1,0 +1,124 @@
+{
+	"glacier" : {
+		"alignment" : "evil",
+		"creatureBackground" : { "120px" : "glacier/creature-bg-120px", "130px" : "glacier/creature-bg-130px" },
+		"name" : "Glacier",
+		"boat" : "boatCastle",
+		"nativeTerrain" : "snow",
+		"town" :
+		{
+			"musicTheme" : "music/glacier/theme",
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "glacier/town-screen/background",
+			"guildWindow": "glacier/town-screen/mage-guild",
+			"hallBackground": "glacier/thback/glacierui.bmp",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ], [ "special1" ], [ "shipyard" ] ],
+				[ [ "special2"], [ "horde1", "horde1Upg" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3"], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ],  ]
+			],
+			"creatures" :
+			[
+				[ "gcrzerk1", "gcrzerk2" ],
+				[ "gcrarcher1", "gcrarcher2" ],					
+				[ "gcrsylph1", "gcrsylph2" ],				
+				[ "gcrowl1", "gcrowl2" ],
+				[ "gcryeti1", "gcryeti2" ],
+				[ "gcrcelest1", "gcrcelest2"],
+				[ "gcricedem1", "gcricedem2" ]
+			],
+			"moatAbility" : "castleMoat",
+			"horde" : [ 2, 3 ],
+			"mageGuild" : 5,
+			"primaryResource" : "crystal",
+			"warMachine" : "ballista",
+			"buildingsIcons" : "glacier/town-hall.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {
+						"small" : "glacier/icons/hall-small.bmp",
+						"large" : "glacier/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "glacier/icons/hall-builded-small.bmp",
+						"large" : "glacier/icons/hall-builded-big.bmp"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "glacier/icons/fort-small.bmp",
+						"large" : "glacier/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "glacier/icons/fort-builded-small.bmp",
+						"large" : "glacier/icons/fort-builded-big.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "glacier/adventure-map/town-capitol.def" },
+					"castle" : { "animation" : "glacier/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "glacier/adventure-map/town-citadel.def" },
+					"fort" : { "animation" : "glacier/adventure-map/town-citadel.def" },
+					"village" : { "animation" : "glacier/adventure-map/town-village.def" }
+				}
+			},
+			"names" :
+			[
+			"Frorlens",
+			"Vrocpolis",
+			"Iqilby",
+			"Uulodset",
+			"Euxafvale",
+			"Wrock",
+			"Yrago",
+			"Dresa",
+			"Voposa",
+			"Muvrans",			
+			"Yoni",
+			"Wrale",
+			"Srine",
+			"Zoizhinas",
+			"Vroplin"
+			],
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 4,
+				"druid"        : 4,
+				"alchemist"    : 4,
+				"wizard"       : 4,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 4,
+				"necromancer"  : 4,
+				"warlock"      : 4,
+				"overlord"     : 4,
+				"barbarian"    : 4,
+				"battlemage"   : 4,
+				"beastmaster"  : 4,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 4,
+				"gcramarok"    : 5,				
+				"gcramarokf"   : 5,
+				"gcricedem"    : 5,			
+				"gcricedemf"   : 5
+			}
+		}
+	}
+}

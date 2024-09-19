@@ -1,0 +1,74 @@
+{
+	"name" : "glacier-town",
+	"description" : "Glacier Town",
+	"author" : "ROFTL Team",
+	"contact" : "",
+	"version" : "0.85",
+	"modType" : "Town",
+	"changelog" :
+    {
+		"0.85"   : [ "Update to vcmi-1.5 format" ],
+		"0.80"   : [ "beta" ]
+    },
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},
+	"factions" :
+	[
+		"config/glacier/town/buildings.json",
+		"config/glacier/town/faction.json",
+		"config/glacier/town/siege.json",
+		"config/glacier/town/spells.json",
+		"config/glacier/town/structures.json",
+		"config/glacier/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/glacier/creatures/zerk1.json",
+		"config/glacier/creatures/zerk2.json",
+		"config/glacier/creatures/archer1.json",
+		"config/glacier/creatures/archer2.json",				
+		"config/glacier/creatures/sylph1.json",
+		"config/glacier/creatures/sylph2.json",
+		"config/glacier/creatures/owl1.json",
+		"config/glacier/creatures/owl2.json",		
+		"config/glacier/creatures/yeti1.json",
+		"config/glacier/creatures/yeti2.json",
+		"config/glacier/creatures/celest1.json",
+		"config/glacier/creatures/celest2.json",
+		"config/glacier/creatures/icedem1.json",
+		"config/glacier/creatures/icedem2.json",
+		"config/glacier/creatures/imag.json"
+	],
+	"heroClasses" :
+	[
+		"config/glacier/heroes/amarok.json",
+		"config/glacier/heroes/amarokf.json",
+		"config/glacier/heroes/icedem.json",		
+		"config/glacier/heroes/icedemf.json"		
+
+	],
+
+	"heroes" :
+	[
+		"config/glacier/heroes/auril.json",
+		"config/glacier/heroes/balcor.json",		
+		"config/glacier/heroes/celestia.json",
+		"config/glacier/heroes/ginara.json",	
+		"config/glacier/heroes/kalamira.json",
+		"config/glacier/heroes/laranne.json",
+		"config/glacier/heroes/nilgaz.json",
+		"config/glacier/heroes/numas.json",
+		"config/glacier/heroes/aleta.json",
+	    "config/glacier/heroes/ayothar.json",
+	    "config/glacier/heroes/larne.json",  
+        "config/glacier/heroes/nirbas.json",
+		"config/glacier/heroes/quelldor.json",
+		"config/glacier/heroes/silk.json",
+		"config/glacier/heroes/shuga.json",
+		"config/glacier/heroes/weil.json"
+	],
+	"objects" : [ "config/glacier/dwellings" ]
+}

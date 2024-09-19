@@ -1,0 +1,61 @@
+{
+	"gcrowl1":
+	{
+		"name" :
+		{
+			"plural" : "Snow Owls",
+			"singular" : "Snow Owl"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "glacier",
+		"aiValue" : 515,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"defense" : 9,
+		"fightValue" : 496,
+		"graphics" :
+		{
+			"animation" : "glacier/battle/owl1.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "glacier/map/owl1mini.def",
+			"iconSmall" : "glacier/iconsSmall/owl1s.bmp",
+			"iconLarge" : "glacier/iconsBig/owl1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 5,
+		"hitPoints" : 30,
+		"level" : 4,
+		"upgrades":
+		[
+			"gcrowl2"
+		],
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"gcrcelest1":
+	{
+		"name" :
+		{
+			"plural" : "Water Celestials",
+			"singular" : "Water Celestial"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "glacier",
+		"aiValue" : 1963,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 950
+			
+		},
+		"damage" :
+		{
+			 "max" : 22,
+			 "min" : 15
+		},
+		"defense" : 13,
+		"fightValue" : 1704,
+		"graphics" :
+		{
+			"animation" : "glacier/battle/celest1.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "glacier/map/celest1mini.def",
+			"iconSmall" : "glacier/iconsSmall/celest1s.bmp",
+			"iconLarge" : "glacier/iconsBig/celest1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 85,
+		"level" : 6,
+	    "doubleWide" : true,			
+		"upgrades":
+		[
+			"gcrcelest2"
+		],
+		"sound" :
+		{
+			"attack": "glacier/celestatk.wav",
+			"defend" : "glacier/celestblk.wav",
+			"killed" : "glacier/celestdie.wav",
+			"move": "glacier/celestwlk.wav",
+			"wince": "glacier/celestblk.wav"     
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"threeHeads" : 
+			{
+				"type" : "THREE_HEADED_ATTACK"
+			},
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			}
+		}	
+	}
+}

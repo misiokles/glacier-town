@@ -1,0 +1,68 @@
+{
+	"gcrsilk" :
+	{
+		"class" : "gcricedemf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Silk",
+			"biography" : "Silk has been known to paralyse her enemies, turning their knees into jelly before devouring their essence.",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus: Weakness",
+				"description" : "Casts Weakness spell with increased effect, based on the level of the target.",
+				"name" : "Weakness"
+			}
+		},		
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/silk/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/silk/spec-large.png",
+			"large" : "glacier/heroes/silk/portrait-large.png",
+			"small" : "glacier/heroes/silk/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+		       "weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

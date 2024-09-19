@@ -1,0 +1,53 @@
+{
+	"gcrlaranne" :
+	{
+		"class" : "gcramarokf",
+		"female" : true,		
+		"texts" :
+		{
+			"name" : "Laranne",
+			"biography" : "Despite her old age, Laranne is famous for being an Amarok and great diplomat. A member of the Glacial Wolf Order, thanks to her hypnotic ability to persuade the beasts of their land, she keeps balance amongst the ranks of their bestial combat units. This amazing ability also extends to conflicts on the battlefield, where her negotiation skills are unmatched.",
+			"specialty" :
+			{
+				"tooltip" : "Creature Bonus: Snowy Owl",
+				"name" : "Snowy Owl",
+				"description" : "Increases Speed of any Snowy Owl by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up)."
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/laranne/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/laranne/spec-large.png",
+			"large" : "glacier/heroes/laranne/portrait-large.png",
+			"small" : "glacier/heroes/laranne/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrowl1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{ "skill" : "diplomacy", "level": "basic"  },
+			{ "skill" : "leadership", "level": "basic" }
+		],
+		
+		"specialty" : {
+			"creature" : "gcrowl1"	
+		}	
+	}
+}

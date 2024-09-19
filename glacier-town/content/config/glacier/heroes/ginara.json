@@ -1,0 +1,68 @@
+{
+	"cgrginara" : 
+	{
+		"class" : "gcramarokf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Ginara",
+			"biography" : "The snowy peaks of the glacial mountain range is one of the harshest landscapes in the world. To prospective Amarok Ginara, everything is seen as a way to develop her talent and these same mountain ranges are no exception. Thanks to her time spent out in the unforgiving environment, she has been honed her ability find secret ways into and out of the mountains.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "Logistics",
+				"name" : "Logistics"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glacier/heroes/ginara/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/ginara/spec-large.png",
+			"large" : "glacier/heroes/ginara/portrait-large.png",
+			"small" : "glacier/heroes/ginara/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

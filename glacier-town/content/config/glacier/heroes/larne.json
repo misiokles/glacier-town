@@ -1,0 +1,74 @@
+{
+	"gcrlarne" :
+	{
+		"class" : "gcricedemf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Larne",
+			"biography" : "A member of the lower class of Ice Demons, Larne has never been one to let her birth determine her fate. After displaying her military might in one extremely vicious battle, those around her quickly learned to keep their comments to themselves.",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus: Frost Ring",
+				"name" : "Frost Ring",
+				"description" : "Casts Frost Ring with damage increased by 7% for every n hero levels (n - target creature level)."
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "glacier/heroes/larne/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/larne/spec-large.png",
+			"large" : "glacier/heroes/larne/portrait-large.png",
+			"small" : "glacier/heroes/larne/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"frostRing"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.frostRing",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 7
+				}
+			}
+		}
+	}
+}

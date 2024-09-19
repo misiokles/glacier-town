@@ -1,0 +1,59 @@
+{
+	"gcrauril" :
+	{
+		"class" : "gcramarok",
+		"texts" :
+		{
+			"name" : "Auril",
+			"biography" : "When Auril was but a child, the ship that she and her family sailed on during the fishing season slammed into a nearly barren glacier, killing both of her parents. Forced to survive off of what she could salvage from her parents fishing boat and whatever birds or animals visited the glacier, she became quite feral. When an Amarok transport vessel spotted the girl stabbing a sea lion with a sharpened wooden stick, they knew right away that this was a new recruit.",
+			"specialty" :
+			{
+				"tooltip" : "Creature Bonus: Berserkers",
+				"name" : "Berserkers",
+				"description" : "Increases Speed of any Berserkers by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up)."
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "glacier/heroes/auril/spec-small.png",
+			"specialtyLarge" : "glacier/heroes/auril/spec-large.png",
+			"large" : "glacier/heroes/auril/portrait-large.png",
+			"small" : "glacier/heroes/auril/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "gcrzerk1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gcrarcher1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "gcrzerk2",
+				"max" : 20,
+				"min" : 15
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "gcrzerk1"	
+		}	
+	}
+}

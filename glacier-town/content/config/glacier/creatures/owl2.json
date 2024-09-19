@@ -1,0 +1,73 @@
+{
+	"gcrowl2":
+	{
+		"name" :
+		{
+			"plural" : "Snow Owl Kings",
+			"singular" : "Snow Owl King"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "glacier",
+		"aiValue" : 600,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 375
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"defense" : 9,
+		"fightValue" : 568,
+		"graphics" :
+		{
+			"animation" : "glacier/battle/owl2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "glacier/map/owl2mini.def",
+			"iconSmall" : "glacier/iconsSmall/owl2s.bmp",
+			"iconLarge" : "glacier/iconsBig/owl2l.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 5,
+		"hitPoints" : 35,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			},
+						"castsBloodlust" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 4
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			}
+		}
+	}
+}
