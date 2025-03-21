@@ -1,19 +1,19 @@
 {
-	"name" : "glacier-town",
+	"name" : "glacier",
 	"description" : "Glacier Town",
-	"author" : "ROFTL Team",
+	"author" : "",
 	"contact" : "",
 	"version" : "0.85",
 	"modType" : "Town",
+	"language": "chinese",
+	"chinese" : {
+		"name" : "冰川",
+		"description" : "新城镇冰川。"
+	},
 	"changelog" :
     {
-		"0.85"   : [ "Update to vcmi-1.5 format" ],
-		"0.80"   : [ "beta" ]
+		"0.8"   : [ "beta" ]
     },
-	"compatibility" :
-	{
-		"min" : "1.5.0"
-	},
 	"factions" :
 	[
 		"config/glacier/town/buildings.json",
@@ -70,5 +70,6 @@
 		"config/glacier/heroes/shuga.json",
 		"config/glacier/heroes/weil.json"
 	],
-	"objects" : [ "config/glacier/dwellings" ]
+	"objects" : [ "config/glacier/dwellings" ],
+	"spells" : [ "config/glacier/spells/moat.json" ]
 }

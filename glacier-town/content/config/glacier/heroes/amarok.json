@@ -1,7 +1,7 @@
 {
 	"gcramarok" : 
 	{
-		"name" : "Amarok",
+		"name" : "冰狼",
 		"animation" :
 		{
 			"battle" : 
@@ -17,21 +17,21 @@
 		"primarySkills" :
 		{
 			"attack"     : 3,
-			"defense"    : 1,
+			"defence"    : 1,
 			"spellpower" : 1,
 			"knowledge"  : 1
 		},
 		"lowLevelChance" :
 		{
 			"attack"     : 45,
-			"defense"    : 45,
+			"defence"    : 45,
 			"spellpower" : 5,
 			"knowledge"  : 5
 		},
 		"highLevelChance" :
 		{
 			"attack"     : 30,
-			"defense"    : 30,
+			"defence"    : 30,
 			"spellpower" : 20,
 			"knowledge"  : 20
 		},

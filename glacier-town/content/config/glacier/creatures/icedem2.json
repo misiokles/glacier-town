@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Greater Ice Demons",
-			"singular" : "Greater Ice Demon"
+			"plural" : "冰魔领主",
+			"singular" : "冰魔领主"
 		},
 		"advMapAmount" :
 		{
@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "glacier/battle/icedem2.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
 			"map" : "glacier/map/icedem2mini.def",
 			"iconSmall" : "glacier/iconsSmall/icedem2s.bmp",
 			"iconLarge" : "glacier/iconsBig/icedem2l.bmp",
@@ -46,6 +46,59 @@
 			"move" : "glacier/icedemwlk.wav",
 			"wince" : "glacier/icedemhit.wav"
 		},
-		"speed" : 8
+		"speed" : 8,
+		"abilities" :
+		{
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
 	}
 }

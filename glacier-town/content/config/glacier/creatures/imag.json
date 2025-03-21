@@ -3,24 +3,33 @@
 	{
 		"name" :
 		{
-			"plural" : "Ice Magai",
-			"singular" : "Ice Mage"
+			"plural" : "寒冰法师",
+			"singular" : "寒冰法师"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
 		},
 		"faction" : "glacier",
 		"special" : true,
-		"aiValue" : 1021,
+		"aiValue" : 1000,
 		"attack" : 5,
 		"damage" :
 		{
 			 "max" : 15,
-			 "min" : 5
+			 "min" : 7
 		},
 		"defense" : 5,
-		"fightValue" : 916,
+		"fightValue" : 1000,
+		"cost" :
+		{
+			"gold" : 140
+		},
 		"graphics" :
 		{
 			"animation" : "glacier/battle/imag.def",
-			"map" : "glacier/map/imagmini.def",
+//			"map" : "glacier/map/imagmini.def",
 			"iconSmall" : "glacier/iconsSmall/imags.bmp",
 			"iconLarge" : "glacier/iconsBig/imagl.bmp",
 			"timeBetweenFidgets" : 1,
@@ -48,7 +57,8 @@
 			}
 	
 		},
-		"growth" : 1,
+		"growth" : 9,
+		"hasDoubleWeek": false,
 		"hitPoints" : 60,
 		"level" : 0,
 		"shots" : 24,
@@ -64,10 +74,6 @@
 		"speed" : 5,
 				"abilities" :
 		{
-		    "canShoot" :
-			{
-				"type" : "SHOOTER"
-			},
 			"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
@@ -93,6 +99,14 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bless",
 				"val" : 3
+			 },
+//			"shooter" :
+//			{
+//				"type" : "SHOOTER"
+//			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
 			}
 	    }
 	}

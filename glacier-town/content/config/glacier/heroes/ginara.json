@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "Ginara",
-			"biography" : "The snowy peaks of the glacial mountain range is one of the harshest landscapes in the world. To prospective Amarok Ginara, everything is seen as a way to develop her talent and these same mountain ranges are no exception. Thanks to her time spent out in the unforgiving environment, she has been honed her ability find secret ways into and out of the mountains.",
+			"name" : "金娜拉",
+			"biography" : "冰川山脉的雪峰是世界上最惊奇瑰丽的景观之一。对于未来的冰狼战士金娜拉来说，一切都是为了培养她的天赋，探险严酷险峻的冰山也不例外。由于她在无情的环境中长期的锻练，她掌握了在复杂地区寻找通路的能力。",
 			"specialty" :
 			{
-				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
-				"tooltip" : "Logistics",
-				"name" : "Logistics"
+				"description" : "在后勤学上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：后勤学",
+				"name" : "后勤学"
 			}
 		},
 		"images" :
@@ -48,7 +48,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "intelligence"
+				"skill" : "logistics"
 			}
 		],
 		

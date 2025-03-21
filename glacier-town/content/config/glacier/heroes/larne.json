@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "Larne",
-			"biography" : "A member of the lower class of Ice Demons, Larne has never been one to let her birth determine her fate. After displaying her military might in one extremely vicious battle, those around her quickly learned to keep their comments to themselves.",
+			"name" : "兰妮",
+			"biography" : "作为低阶冰魔的一员，兰妮从来都不是一个让出身决定命运的人。她在一场极其惨烈的战斗中展示了实力后，周围的人立即改变了对她的看法。",
 			"specialty" :
 			{
-				"tooltip" : "Spell Bonus: Frost Ring",
-				"name" : "Frost Ring",
-				"description" : "Casts Frost Ring with damage increased by 7% for every n hero levels (n - target creature level)."
+				"tooltip" : "魔法增强：寒冰魔环",
+				"name" : "寒冰魔环",
+				"description" : "使用寒冰魔环魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。"
 			}
 		},
 		"images" :

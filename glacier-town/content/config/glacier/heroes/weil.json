@@ -5,13 +5,13 @@
 		"female" : true,		
 		"texts" :
 		{
-			"name" : "Weil",
-			"biography" : "The years of torturing devils on Tierra del Fuego, have forced Weil to learn defensive magic in order to be able to protect herself better. Since then she has become an expert in this field, especially when it comes to deflecting enemy bombardment.",
+			"name" : "威尔",
+			"biography" : "多年在火地岛饱受恶魔折磨的经历，迫使威尔学习防御魔法，以更好地保护自己。从那之后，她逐渐成为该领域的专家，尤其是在偏转敌人的魔法攻击方面。",
 			"specialty" :
 			{
-				"tooltip" : "Spell Bonus: Shield.",
-				"description" : "{Shield}",
-				"name" : "Shield"
+				"tooltip" : "魔法增强：护体神盾",
+				"description" : "使用护体神盾魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"name" : "护体神盾"
 			}
 		},
 		"images" :

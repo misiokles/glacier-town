@@ -4,13 +4,13 @@
 		"class" : "gcricedem",
 		"texts" :
 		{
-			"name" : "Ayothar",
-			"biography" : "Lesser Ice Demons are much smarter than they seem. Ayothar is a prime example of this as he was the first of his kind to master magic.", 
+			"name" : "艾约萨",
+			"biography" : "低阶冰魔比他们外表看上去要聪明得多。艾约萨就是一个典型的例子，因为他是同类中第一个熟练掌握魔法的。", 
 			"specialty" :
 			{
-				"tooltip" : "Bonus to Mysticism",
-				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
-				"name" : "Mysticism"
+				"tooltip" : "技能加成：神秘术",
+				"description" : "在神秘术上每级得到5%的额外奖励。",
+				"name" : "神秘术"
 			}
 		},		
 		"images" :
@@ -55,7 +55,7 @@
 				"skill" : "waterMagic"
 			}
 		],
-		"specialty" : {
+		"specialty" :  {
 			"bonuses" : {
 				"mysticism" : {
 					"targetSourceType" : "SECONDARY_SKILL",

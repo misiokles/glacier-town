@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Frost Berserkers",
-			"singular" : "Frost Berserker"
+			"plural" : "狂战士",
+			"singular" : "狂战士"
 		},
 		"advMapAmount" :
 		{
@@ -28,7 +28,7 @@
 		"graphics" :
 		{
 			"animation" : "glacier/battle/zerk1.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
 			"map" : "glacier/map/zerk1mini.def",
 			"iconSmall" : "glacier/iconsSmall/zerk1s.bmp",
 			"iconLarge" : "glacier/iconsBig/zerk1l.bmp",
@@ -51,6 +51,52 @@
 			"move": "PIKEMOVE.wav",
 			"wince": "PIKEWNCE.wav"
 		},
-		"speed" : 5
+		"speed" : 5,
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin", //min
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax", //max
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+
 	}
 }

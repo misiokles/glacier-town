@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "Aleta",
-			"biography" : "Aleta was converted into a Greater Ice Demon against her own will. She has since embraced the power that came with the change, lending it out to the local Glacial Lords.",
+			"name" : "艾蕾塔",
+			"biography" : "艾蕾塔在违背意愿的情况下被转换成了冰魔。但是从那以后，她接受了变化给她带来的力量，前去效忠当地的冰川领主。",
 			"specialty" :
 			{
-				"tooltip" : "Spell Bonus: Haste",
-				"name" : "Haste",
-				"description" : "Casts Haste spell with increased effect, based on the level of the target."
+				"tooltip" : "魔法增强：攻击加速",
+				"name" : "攻击加速",
+				"description" : "使用攻击加速魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。"
 			}
 		},
 		"images" :

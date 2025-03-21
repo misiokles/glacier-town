@@ -4,13 +4,13 @@
 		"class" : "gcramarok",
 		"texts" :
 		{
-			"name" : "Numas",
-			"biography" : "Numas fancies himself a master trader with a penchant for making money appear from thin air. The truth is, he regularly goes on adventures in an effort to relieve the local marauding monsters and bandits from their precious hides and gear. He then loves to take these items to his shop, in order to convert them into the piles of gold he loves so much.", 
+			"name" : "努玛",
+			"biography" : "努玛一直幻想自己是一位商贸大师，可以凭空的赚大钱。事实是，他经常去冒险，从当地的怪物和强盗那里窃取珍贵的皮毛和装备。然后他将这些物品带到他的商店，以便出售它们来获得他非常喜欢的成堆的黄金。", 
 			"specialty" :
 			{
-				"description" : "+350 Gold per day",
-				"tooltip" : "Increases kingdom's income by 350 gold per day.",
-				"name" : "+350 Gold"
+				"description" : "为王国每天额外提供350个金币。",
+				"tooltip" : "每天+350个金币",
+				"name" : "+350个金币"
 			}
 		},
 		"images" :

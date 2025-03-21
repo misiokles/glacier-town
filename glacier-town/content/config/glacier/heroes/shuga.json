@@ -4,13 +4,13 @@
 		"class" : "gcricedem",
 		"texts" :
 		{
-			"name" : "Shuga",
-			"biography" : "Although only he knows how he became an Ice Demon, his ability to block positive and negative spells contributed to his admission to the Glacial Order.",
+			"name" : "舒迦",
+			"biography" : "虽然只有舒迦自己知道他是如何从人类转换成冰魔的，但他对正反法术的干扰和汇融能力，让他得到了冰川教团的青睐。",
 			"specialty" :
 			{
-				"tooltip" : "Dispel",
-				"name" : "Dispel",
-				"description" : "{Dispel}"
+				"tooltip" : "魔法增强：驱魔大法",
+				"name" : "驱魔大法",
+				"description" : "使用驱魔大法魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。"
 			}
 		},
 		"images" :

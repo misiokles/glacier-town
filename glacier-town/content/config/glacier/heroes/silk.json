@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "Silk",
-			"biography" : "Silk has been known to paralyse her enemies, turning their knees into jelly before devouring their essence.",
+			"name" : "休克",
+			"biography" : "众所周知，休克可以麻痹她的敌人，在吞噬他们的精华之前将他们的膝盖变成果冻。",
 			"specialty" :
 			{
-				"tooltip" : "Spell Bonus: Weakness",
-				"description" : "Casts Weakness spell with increased effect, based on the level of the target.",
-				"name" : "Weakness"
+				"tooltip" : "魔法增强：虚弱无力",
+				"description" : "使用虚弱无力魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"name" : "虚弱无力"
 			}
 		},		
 		"images" :

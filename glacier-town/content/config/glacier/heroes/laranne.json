@@ -5,13 +5,13 @@
 		"female" : true,		
 		"texts" :
 		{
-			"name" : "Laranne",
-			"biography" : "Despite her old age, Laranne is famous for being an Amarok and great diplomat. A member of the Glacial Wolf Order, thanks to her hypnotic ability to persuade the beasts of their land, she keeps balance amongst the ranks of their bestial combat units. This amazing ability also extends to conflicts on the battlefield, where her negotiation skills are unmatched.",
+			"name" : "拉兰妮",
+			"biography" : "尽管年事已高，拉兰妮却以冰狼战士中伟大的外交家而闻名。作为冰狼骑士团的成员，她具有驯服这片土地上任何野兽的能力，她可以在冰川战士群体和他们的野兽战斗单位之间维持平衡。这种惊人的能力也延伸到战场上的冲突中，她的谈判技巧无人能及。",
 			"specialty" :
 			{
-				"tooltip" : "Creature Bonus: Snowy Owl",
-				"name" : "Snowy Owl",
-				"description" : "Increases Speed of any Snowy Owl by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up)."
+				"tooltip" : "生物强化：雪鸮",
+				"name" : "雪鸮",
+				"description" : "达到4级以后提高雪鸮或雪鸮王的攻击力与防御力。"
 			}
 		},
 		"images" :

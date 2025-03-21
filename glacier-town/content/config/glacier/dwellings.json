@@ -2,7 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"gcrMarauderBarracks" : {
-				"name" : "Marauder Barracks",
+				"name" : "掠夺者营地",
 				"creatures" : [[ "gcrzerk1" ]],
 				"templates" : {
 					"default" : {
@@ -12,7 +12,7 @@
 				}
 			},
 			"gcricehunterlodge" : {
-				"name" : "Ice Hunter Lodge",
+				"name" : "猎手小屋",
 				"creatures" : [[ "gcrarcher1" ]],
 				"templates" : {
 					"default" : {	
@@ -22,7 +22,7 @@
 				}
 			},
 			"gcrsylphhovel" : {
-				"name" : "Sylph Hovel",
+				"name" : "风精灵居所",
 				"creatures" : [[ "gcrsylph1" ]],
 				"templates" : {
 					"default" : {
@@ -33,7 +33,7 @@
 				}
 			},
 			"gcrSnowyowlnest" : {
-				"name" : "Snowy Owl Nest",
+				"name" : "雪鸮巢穴",
 				"creatures" : [[ "gcrowl1" ]],
 				"templates" : {
 					"default" : {
@@ -43,7 +43,7 @@
 				}
 			},
 			"gcryeticave" : {
-				"name" : "Yeti Cave",
+				"name" : "雪猿洞穴",
 				"creatures" : [[ "gcryeti1" ]],
 				"guards" : true,
 				"templates" : {
@@ -54,7 +54,7 @@
 				}
 			},
 			"gcrcelestialportal" : {
-				"name" : "Celestial Portal",
+				"name" : "潮汐之门",
 				"creatures" : [[ "gcrcelest1" ]],
 				"guards" : true,
 				"templates" : {
@@ -65,7 +65,7 @@
 				}
 			},
 			"gcrshrineofice" : {
-				"name" : "Shrine of Ice",
+				"name" : "寒冰祭坛",
 				"creatures" : [[ "gcricedem1" ]],
 				"guards" : true,
 				"templates" : {

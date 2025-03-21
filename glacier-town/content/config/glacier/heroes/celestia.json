@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "Celestia",
-			"biography" : "Only Celestia knows why she does not age with time. Her secret is that in her child's body beats the magic heart of an ancient great Amarak. Incredible and mysterious, Celestia, travels the world in search of secrets long forgotten by mortals.",
+			"name" : "塞拉斯蒂娅",
+			"biography" : "只有塞拉斯蒂娅知道为什么自己不会变老。这个秘密是，在她只是个孩子的身体里，跳动着古代冰狼战士遗留下的魔法心脏。不可思议的塞拉斯蒂娅长大后环游世界，以寻找更多被凡人遗忘的秘密。",
 			"specialty" :
 			{
-				"description" : "Receives a 5% per level bonus to Resistance skill.",
-				"tooltip" : "Secondary Skill Bonus: Resistance",
-				"name" : "Resistance"
+				"description" : "在抵抗力上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：抵抗力",
+				"name" : "抵抗力"
 			}
 		},
 		"images" :

@@ -2,15 +2,16 @@
 	"gcrauril" :
 	{
 		"class" : "gcramarok",
+		"female" : true,
 		"texts" :
 		{
-			"name" : "Auril",
-			"biography" : "When Auril was but a child, the ship that she and her family sailed on during the fishing season slammed into a nearly barren glacier, killing both of her parents. Forced to survive off of what she could salvage from her parents fishing boat and whatever birds or animals visited the glacier, she became quite feral. When an Amarok transport vessel spotted the girl stabbing a sea lion with a sharpened wooden stick, they knew right away that this was a new recruit.",
+			"name" : "奥蕾儿",
+			"biography" : "当奥蕾儿还是个孩子的时候，她和家人在捕鱼季节遇到了船难，在几乎荒芜的冰川上撞沉，导致她父母双亡。她被迫用渔船上的工具与冰川中的生物搏斗求生，她因此变得非常野蛮。当一艘路过的冰狼战士运输船发现这个女孩正在用锋利的木棍猎捕海狮时，他们立即意识到这是一名合格的战士。",
 			"specialty" :
 			{
-				"tooltip" : "Creature Bonus: Berserkers",
-				"name" : "Berserkers",
-				"description" : "Increases Speed of any Berserkers by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up)."
+				"tooltip" : "生物强化：狂战士",
+				"name" : "狂战士",
+				"description" : "达到1级以后提高狂战士或掠夺者的攻击力与防御力。"
 			}
 		},
 		"images" :

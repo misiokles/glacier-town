@@ -4,12 +4,12 @@
 		"class" : "gcramarok",
 		"texts" :
 		{
-			"name" : "Nilgaz",
-			"biography" : "Nilgaz, the twin brother of Balcor has always struggled to keep up with his brother which claims to be the eldest based on the simple fact that he was born two minutes prior. One day while out on a hunt with his brother on the glacial peaks, his brothers horse stepped into a snow covered hole tossing him from the saddle where he hit his head on a tree quite badly. Alone and with no help coming due to their isolated location, Nilgaz has no choice but to nurse his brother back to health. This led to the discovery of his innate ability in the arts of healing.",
+			"name" : "尼尔加兹",
+			"biography" : "巴尔科拉的孪生兄弟尼尔加兹一直在努力跟上他的兄长，因为根据早出生两分钟这个简单的事实，巴尔科拉声称他是年长的。一天，当他们兄弟俩在冰川山峰上打猎时，他兄长的马踩进了一个积雪覆盖的洞，因此从马鞍上翻下来，头撞到了一棵树上。由于位置偏僻，尼尔加兹别无选择，只能独自想办法照顾他的兄长直至恢复健康。这导致他发现了自己在急救方面的天赋。",
 			"specialty" : {
-				"description" : "Bonus of First Aid",
-				"tooltip" : "Receives a 5% per level bonus to First Aid skill percentage.",
-				"name" : "First Aid"
+				"description" : "在急救术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：急救术",
+				"name" : "急救术"
 			}
 		},
 		
@@ -33,10 +33,10 @@
 				"max" : 10,
 				"min" : 5
 			},
-			{
-				"creature" : "gcrarcher1",
-				"max" : 4,
-				"min" : 3
+			{ 
+				"creature" : "firstAidTent",
+				"max" : 1, 
+				"min" : 1 
 			}
 		],
 

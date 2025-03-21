@@ -1,0 +1,35 @@
+{
+// "special" heroes for new towns
+	"core:gelu":
+	{
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.sharpshooter",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"gcrarcher12sharpshooter" : { "subtype" : "creature.gcrarcher1" },
+				"gcrarcher22sharpshooter" : { "subtype" : "creature.gcrarcher2" },
+			}
+		},
+	},
+	"core:ivor":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "gcrarcher1", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+	}
+}

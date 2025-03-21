@@ -1,7 +1,7 @@
 {
 	"gcricedemf" :
 	{
-		"name" : "Ice Demon",
+		"name" : "冰魔",
 		"animation" :
 		{
 			"battle" : 
@@ -17,21 +17,21 @@
 		"primarySkills" :
 		{
 			"attack"     : 1,
-			"defense"    : 0,
+			"defence"    : 0,
 			"spellpower" : 1,
 			"knowledge"  : 3
 		},
 		"lowLevelChance" :
 		{
 			"attack"     : 10,
-			"defense"    : 10,
+			"defence"    : 10,
 			"spellpower" : 30,
 			"knowledge"  : 50
 		},
 		"highLevelChance" :
 		{
 			"attack"     : 20,
-			"defense"    : 20,
+			"defence"    : 20,
 			"spellpower" : 30,
 			"knowledge"  : 30
 		},

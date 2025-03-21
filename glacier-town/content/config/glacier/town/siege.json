@@ -6,9 +6,9 @@
 			"siege" :
 			{
 				"shooter" : "gcrarcher1",
-				"towerIconSmall" : "glacier/icons/arrowtowersmall",
-				"towerIconLarge" : "glacier/icons/arrowtowerslarge",
 				"imagePrefix" : "glacier/siege/sgfg",
+				"towerIconSmall" : "glacier/icons/towerSmall",
+				"towerIconLarge" : "glacier/icons/towerLarge",
 				"gate" :
 				{
 					"arch" : { "x" : 470, "y" : 238 },

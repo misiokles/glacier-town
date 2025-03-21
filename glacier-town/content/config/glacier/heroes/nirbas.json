@@ -4,13 +4,13 @@
 		"class" : "gcricedem",
 		"texts" :
 		{
-			"name" : "Nirbas",
-			"biography" : "The tale of Nirbas is a strange one. He appeared through a celestial portal one day not speaking a word to anyone. He has since won many battles for the Glacial Kingdoms but he has yet to utter a single word.",
+			"name" : "尼尔巴斯",
+			"biography" : "尼尔巴斯的故事是一个传奇。有一天，他通过一个传送门出现，没有对任何人说一句话。从那时起，他为冰川王国赢得了许多战斗，但他一直也没有说过一句话。",
 			"specialty" :
 			{
-				"tooltip" : "Creature Bonus: Celestials",
-				"name" : "Celestials",
-				"description" : "Increases Speed of any Celestials by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up)."
+				"tooltip" : "生物强化：潮汐之灵",
+				"name" : "潮汐之灵",
+				"description" : "达到6级以后提高潮汐之灵或潮汐领主的攻击力与防御力。"
 			}
 		},
 		"images" :

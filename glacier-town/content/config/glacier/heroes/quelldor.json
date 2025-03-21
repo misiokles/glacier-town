@@ -4,13 +4,13 @@
 		"class" : "gcricedem",
 		"texts" :
 		{
-			"name" : "Quelldor",
-			"biography" : "Quelldor was born a Greater Ice Demon and looks down upon those who elevated themselves into his sacred bloodline through the perversion of his peoples magics.",
+			"name" : "奎多",
+			"biography" : "奎多生来就是一个高阶冰魔，他看不起那些通过扭曲魔法来将自己所谓提升到神圣血统的族人。",
 			"specialty" :
 			{
-				"description" : "Starts with Advanced Water Magic skill.",
-				"tooltip" : "Secondary Skill Bonus: Water Magic",
-				"name" : "Water Magic"
+				"description" : "开始时就懂得高级水系魔法，每级水系魔法增加5%伤害。",
+				"tooltip" : "技能加成：水系魔法",
+				"name" : "水系魔法"
 			}
 		},
 		"images" :
@@ -45,13 +45,26 @@
 		],
 
 		"skills" :
-		[
+		[	
 			{
-				"level" : "advanced",
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "expert",
 				"skill" : "waterMagic"
 			}
 		],
 		"specialty" : {
+			"bonuses" : {
+				"waterMagic" : {
+					"type": "SPELL_DAMAGE",
+					"subtype": "water",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
 		}	
 	}
 }

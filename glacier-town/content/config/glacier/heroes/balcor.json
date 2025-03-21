@@ -4,13 +4,13 @@
 		"class" : "gcramarok",
 		"texts" :
 		{
-			"name" : "Balcor",
-			"biography" : "Balcor, the two minute older twin of Nilgaz has always been a hearty warrior, who went into battle wearing nothing but the skins of the wild animals he bested in hand to hand combat. That was until the fateful hunting trip with his brother that led to a severe head injury and the title of little brother to Nilgaz. Having learned his lesson, Balcor has become quite the famed Armorer. To this day he can be seen wearing only the finest Iron helmets from his personal collection every time he goes into battle.",
+			"name" : "巴尔科拉",
+			"biography" : "巴尔科拉是只比尼尔加兹大两分钟的双胞胎哥哥，一直是一位热心的战士，他上战场时只穿着他猎取的野生动物皮毛。直到与兄弟进行的一次致命狩猎之旅中，他的头部严重受伤，尼尔加兹夺取了大哥的称号。吸取了这次教训，巴尔科拉后来成为颇有名气的制甲师。直到今天，人们都可以看到他每次参加战斗时都戴着他个人收藏中最好的铁头盔。",
 			"specialty" :
 			{
-				"tooltip" : "Receives a 5% per level bonus to Armorer skill.",
-				"description" : "Receives a 5% per level bonus to Armorer skill.",
-				"name" : "Armorer"
+				"tooltip" : "技能加成：防御术",
+				"description" : "在防御术上每级得到5%的额外奖励。",
+				"name" : "防御术"
 			}
 		},
 		"images" :

@@ -5,13 +5,13 @@
 		"female" : true,		
 		"texts" :
 		{
-			"name" : "Kalamira",
-			"biography" : "Kalamira the calamity, this was the name given to her by her peers during Amarok Training. She was always hurting herself in vicious brawls where she favored head butting an opponents nose up into their skull. Thanks to the wisdom of one of her instructors, she was fitted a fine bronze helmet, which she uses to devastating affect in melee.",
+			"name" : "卡拉米拉",
+			"biography" : "灾厄之卡拉米拉，这是冰狼战士训练时同龄人给她起的名字。她总是在争端中恶毒的伤害自己，她喜欢用头槌撞扁对手的鼻子。多亏了一位导师的突发奇想，给她戴上了精美的青铜头盔，她得以在近战中发挥出毁灭性的作用。",
 			"specialty" :
 			{
-				"tooltip" : "Secondary Skill Bonus: offence",
-				"name" : "Offence",
-				"description" : "Receives a 5% per level bonus to offence skill percentage."
+				"tooltip" : "技能加成：进攻术",
+				"name" : "进攻术",
+				"description" : "在进攻术上每级得到5%的额外奖励。"
 			}
 		},
 		"images" :
@@ -48,7 +48,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "navigation"
+				"skill" : "offence"
 			}
 		],
 		

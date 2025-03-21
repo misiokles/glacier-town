@@ -1,13 +1,13 @@
 {
 	"glacier" : {
 		"alignment" : "evil",
+		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "glacier/creature-bg-120px", "130px" : "glacier/creature-bg-130px" },
-		"name" : "Glacier",
-		"boat" : "boatCastle",
-		"nativeTerrain" : "snow",
+		"name" : "冰川",
+		"nativeTerrain" : "swamp",
 		"town" :
 		{
-			"musicTheme" : "music/glacier/theme",
+			"musicTheme" : ["music/glacier/theme"],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
@@ -32,11 +32,10 @@
 				[ "gcrcelest1", "gcrcelest2"],
 				[ "gcricedem1", "gcricedem2" ]
 			],
-			"moatAbility" : "castleMoat",
+			"moatAbility":"glacierMoat",
 			"horde" : [ 2, 3 ],
 			"mageGuild" : 5,
 			"primaryResource" : "crystal",
-			"warMachine" : "ballista",
 			"buildingsIcons" : "glacier/town-hall.def",
 			"icons" :
 			{
@@ -78,21 +77,21 @@
 			},
 			"names" :
 			[
-			"Frorlens",
-			"Vrocpolis",
-			"Iqilby",
-			"Uulodset",
-			"Euxafvale",
-			"Wrock",
-			"Yrago",
-			"Dresa",
-			"Voposa",
-			"Muvrans",			
-			"Yoni",
-			"Wrale",
-			"Srine",
-			"Zoizhinas",
-			"Vroplin"
+			"弗洛伦斯",
+			"瓦罗波利斯",
+			"伊奎比",
+			"奥罗塞特",
+			"奥夏斐尔",
+			"弗洛克",
+			"伊亚戈",
+			"德瑞萨",
+			"沃博萨",
+			"穆弗兰",			
+			"优尼",
+			"弗拉尔",
+			"斯利尼",
+			"佐伊吉纳斯",
+			"弗洛普林"
 			],
 			"tavern" :
 			{
